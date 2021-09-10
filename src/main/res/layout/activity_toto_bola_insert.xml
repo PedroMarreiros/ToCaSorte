@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".TotoBolaInsert">
+
+    <TextView
+        android:id="@+id/tv_insertCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="589dp"
+        android:text=""
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_equipa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="476dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Insira a equipa 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_insertCounter" />
+
+    <EditText
+        android:id="@+id/et_equipa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="391dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Insira a equipa 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_equipa1" />
+
+    <EditText
+        android:id="@+id/et_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="275dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Insira o resultado"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_equipa2" />
+
+    <Button
+        android:id="@+id/b_insertNextTeam"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="133dp"
+        android:background="@color/green"
+        android:text="Inserir"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFC107"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_resultado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

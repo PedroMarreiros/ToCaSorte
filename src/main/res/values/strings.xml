@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToCaSorte</string>
+    <string name="euromilh_es">Euromilhões</string>
+    <string name="totoloto">Totoloto</string>
+    <string name="totobola">Totobola</string>
+    <string name="textview">TextView</string>
+    <string name="totocona">Totocona</string>
+    <string name="niggerlotto">NiggerLotto</string>
+    <string name="eurowhores">EuroWhores</string>
+    <string name="settings">Settings</string>
+    <string name="gerar_chave">Gerar chave</string>
+    <string name="a_sua_chave">A sua chave:</string>
+    <string name="n_meros">Números:</string>
+    <string name="tocasorte">ToCaSorte</string>
+    <string name="__________">Name</string>
+</resources>
